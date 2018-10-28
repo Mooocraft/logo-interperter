@@ -60,7 +60,7 @@ class Turtle {
 	}
 
 	setxy(setX, setY) {
-		translate(0, 0);
+		console.log(translate(0, 0));
 		translate(setX, setY);
 	}
 }
