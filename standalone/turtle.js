@@ -59,6 +59,7 @@ class Turtle {
 	}
 
 	setxy(setX, setY) {
+		translate(0, 0);
 		translate(setX, setY);
 	}
 }
