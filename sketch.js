@@ -37,5 +37,5 @@ function goTurtle() {
 }
 
 function change() {
-	location.assign("http://localhost:3000/standalone");
+	location.assign("http://logointerp.tk/standalone");
 }
