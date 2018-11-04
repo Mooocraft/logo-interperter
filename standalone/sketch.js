@@ -5,7 +5,7 @@ function setup() {
 	createCanvas(200, 200);
 	angleMode(DEGREES);
 	background(0);
-	turtle = new Turtle(100, 100, 0);
+	turtle = new Turtle(0, 0, 0);
 	editor = select('#code');
 	goTurtle();
 }
